@@ -1,0 +1,20 @@
+{
+    "targeted_columns": [
+      "_@timestamp", 
+      "_SourceIP", 
+      "_DestinationIP", 
+      "_BytesReceived",
+      "_BytesSent", 
+      "_Action", 
+      "_DestinationPort"
+    ],
+    "columns_dtypes": [
+      "O",
+      "O",
+      "O",
+      "float64",
+      "float64",
+      "O",
+      "float64"
+    ]
+  }
