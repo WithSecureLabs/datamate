@@ -1,0 +1,18 @@
+{
+  "template": {
+    "site": "",
+    "title": "Datamate",
+    "theme_toggle": "Off",
+    "header_background": "rgb(95,158,209)"
+  },
+  "targeted_cols": [
+    "_@timestamp", 
+    "_SourceIP", 
+    "_DestinationIP", 
+    "_BytesReceived", 
+    "_BytesSent", 
+    "_Action", 
+    "_DestinationPort"
+  ],
+  "known_servers":{}
+}
