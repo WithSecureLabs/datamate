@@ -1,15 +1,9 @@
 {
   "template": {
     "site": "Datamate",
-    "title": "",
-    "busy_indicator": "On",
+    "title": "Datamate",
     "theme_toggle": "Off",
     "header_background": "rgb(95,158,209)"
-  },
-  "section_title_style": {
-    "color": "rgb(95,158,109)",
-    "font-family": "Comic Sans, Comic Sans MS, cursive",
-    "font-size": "26px"
   },
   "targeted_cols": [
     "_@timestamp", 
