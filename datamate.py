@@ -16,9 +16,7 @@ import panel as pn
 import random
 
 def read_parquet(file_path, targeted_cols):
-        
-    #Initiate Dask Clientlocally
-    # client = Client(n_workers=os.cpu_count())
+    """Function to read the parquet file into a dask dataframe"""
 
     with Client(n_workers=os.cpu_count()) as client:
     
@@ -62,6 +60,7 @@ class Datamate:
         self.datafile = datafile
         self.targeted_cols = config['targeted_cols']
         self.known_servers = config['known_servers']
+        self.template_setup = config['template']
         self.df = None
         self.table = None        
         self.start_date = None
@@ -433,9 +432,10 @@ class Datamate:
 
     def template(self, main):
         template = pn.template.MaterialTemplate(
-            title="Datamate",
-            theme_toggle = 'Off',
-            header_background="#5f9ed1",
+            site=self.template_setup['site'],
+            title=self.template_setup['title'],
+            theme_toggle = self.template_setup['theme_toggle'],
+            header_background=self.template_setup['header_background'],
             main=[main]
         )
         pn.serve(template)
