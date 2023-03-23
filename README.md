@@ -114,7 +114,7 @@ Current supported server types:
 
 The last command will launch the following view within the default browser:
 
-![exploration_view](./images/exploration_view.png)
+![exploration_view](exploration_view.png)
 
 The following filters can be used to isolate IP(s):
 - Start date
@@ -132,7 +132,7 @@ Page size can be used to change the amount of rows per page.
 
 The second tab, `Data visualization` can be used to generate a graph around filtered IP(s)
 
-![graph_example1](./images/graph_example1.png)
+![graph_example1](graph_example1.png)
 
 As it can be seen, the custom legend is activated, to better express known nodes within the network (usually internal IPs)
 Also each node provides additional info when hovering:
@@ -140,7 +140,7 @@ Also each node provides additional info when hovering:
 - Amount of connections within the network
 - Role
 
-![graph_example2](./images/graph_example2.png)
+![graph_example2](graph_example2.png)
 
 
 
