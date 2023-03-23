@@ -1,4 +1,4 @@
-name: datamate2
+name: datamate
 channels:
   - conda-forge
   - defaults
