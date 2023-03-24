@@ -15,6 +15,8 @@
 
 Datamate is a tool for security analysts to help performing data exfiltration analysis on large NetFlow/firewall data quickly and locally, without having to deploy complex infrastructure. 
 
+The work on Datamate was supported by CC-DRIVER, a project funded by the European Union’s Horizon 2020 Research and Innovation Programme under Grant Agreement No. 883543.
+
 ## Main features
 
 ### Data conversion
